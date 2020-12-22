@@ -287,6 +287,52 @@ input, select, textarea {
 			}
 
 		}
+/*--Abdilahi Edits-- */
+.menu {
+	width: 30px;
+	position: absolute;
+	top: 5px;
+	z-index: 1;
+	transition-duration: 500ms;
+}
+.menu input {
+	width: 100%;
+}
+
+.sidebar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #4686a0;
+	width: 2.5%;
+	height: 100%;
+	z-index: 1;
+	transition-duration: 500ms;
+}
+
+.sidebar ul {
+	background-color: orange;
+	margin-top: 100px;
+	margin-left: 0;
+	left: 0;
+}
+
+.sidebar li {
+	list-style: none;
+	width: 30px;
+}
+
+.sidebar img {
+	width: 30px;
+	margin-left: 0;
+	margin-top: 10px;
+}
+.sideIcons {
+	position: absolute;
+	margin-top: 30px;
+	width: 100%;
+	background-color: green;
+}
 
 /* Row */
 
