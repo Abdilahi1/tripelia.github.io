@@ -288,50 +288,58 @@ input, select, textarea {
 
 		}
 /*--Abdilahi Edits-- */
-.menu {
-	width: 30px;
+
+#header .menu {
 	position: absolute;
-	top: 5px;
-	z-index: 1;
+	top: -35%;
+	width: 30px;
 	transition-duration: 500ms;
 }
-.menu input {
+
+#header .menu input {
 	width: 100%;
+	
 }
 
-.sidebar {
+#sideBar {
 	position: absolute;
-	left: 0px;
-	top: 0px;
 	background-color: #4686a0;
-	width: 2.5%;
-	height: 100%;
-	z-index: 1;
+	top: -37.5%;
+	width: 0;
+	height: 200%;
 	transition-duration: 500ms;
 }
 
-.sidebar ul {
-	background-color: orange;
-	margin-top: 100px;
-	margin-left: 0;
-	left: 0;
-}
-
-.sidebar li {
+#sideBarList {
 	list-style: none;
-	width: 30px;
+	margin-left: 0;
+	padding: 0px;
 }
 
-.sidebar img {
-	width: 30px;
-	margin-left: 0;
-	margin-top: 10px;
+#sideBarList li {
+	text-align: center;
+	transition-duration: 340ms;
+	cursor: pointer;
 }
-.sideIcons {
-	position: absolute;
-	margin-top: 30px;
-	width: 100%;
-	background-color: green;
+
+#sideBarList li:hover {
+	background-color: #68b09f;
+}
+
+#sideBarList li img {
+	width: 25px;
+	margin-right: 10%;
+	bottom: 0px;
+}
+
+#topSideBar {
+	height: 20%;
+	background-color: #4d85aa;
+}
+
+.hidden {
+	display: none;
+	transition-duration: 501ms;
 }
 
 /* Row */
