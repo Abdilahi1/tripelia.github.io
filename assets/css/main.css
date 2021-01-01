@@ -318,7 +318,7 @@ input, select, textarea {
 
 #sideBarList li {
 	text-align: center;
-	transition-duration: 340ms;
+	transition-duration: 500ms;
 	cursor: pointer;
 }
 
